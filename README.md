@@ -1,5 +1,28 @@
-# churn-bancario-brasil
-Análise de churn e retenção de clientes no setor bancário brasileiro utilizando Python, SQL e Power BI.
+# 📊 Análise de Reclamações no Setor Bancário Brasileiro
+
+Projeto de análise de dados utilizando informações públicas do Banco Central
+do Brasil para estudar a evolução das reclamações relacionadas às instituições
+financeiras brasileiras.
+
+## 🎯 Objetivo
+
+Analisar os dados públicos do Ranking de Reclamações do Banco Central,
+identificando padrões, evolução ao longo do tempo e diferenças entre
+instituições financeiras.
+
+## 🛠️ Tecnologias
+
+- Python
+- Pandas
+- Requests
+- Git/GitHub
+
+## 📂 Estrutura do projeto
+
+- `src/` — scripts Python
+- `data/` — dados utilizados no projeto
+- `notebooks/` — análises exploratórias
+- `dashboard/` — visualizações futuras
 
 
 ⚙️ Configuração do ambiente
@@ -26,34 +49,3 @@ As principais bibliotecas utilizadas no projeto incluem Pandas para manipulaçã
 
 A pasta .venv não é versionada no GitHub. As dependências necessárias para reproduzir o ambiente do projeto são registradas no arquivo requirements.txt.
 
-
-## 🎯 Perguntas de Negócio
-
-Este projeto busca responder às seguintes perguntas:
-
-### Churn e retenção
-1. Qual é a taxa de churn da base de clientes?
-2. Como a taxa de churn evolui ao longo do tempo?
-3. Quais perfis de clientes apresentam maior taxa de churn?
-4. Há diferença de churn de acordo com tempo de relacionamento com o banco?
-
-### Comportamento do cliente
-5. Clientes que reduzem sua movimentação financeira apresentam maior probabilidade de churn?
-6. Existe redução do saldo ou do número de transações nos meses anteriores ao cancelamento?
-7. A quantidade de produtos contratados influencia a permanência do cliente?
-8. Quais comportamentos aparecem com maior frequência antes do churn?
-
-### Relacionamento e atendimento
-9. Clientes que registram reclamações apresentam maior taxa de churn?
-10. Existe relação entre frequência de reclamações e cancelamento?
-11. É possível identificar sinais de deterioração do relacionamento antes do encerramento da conta?
-
-### Risco de churn
-12. Quais variáveis apresentam maior associação com o churn?
-13. É possível criar indicadores para identificar clientes com maior risco de abandono?
-14. Quais clientes deveriam ser priorizados em uma estratégia de retenção?
-
-### Mercado bancário brasileiro
-15. Como os indicadores de reclamações evoluíram nas instituições financeiras brasileiras?
-16. Existem diferenças relevantes nos indicadores entre instituições ou períodos?
-17. Como os dados públicos do Banco Central podem complementar a análise de relacionamento e retenção?
