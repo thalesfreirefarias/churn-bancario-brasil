@@ -49,3 +49,35 @@ As principais bibliotecas utilizadas no projeto incluem Pandas para manipulaçã
 
 A pasta .venv não é versionada no GitHub. As dependências necessárias para reproduzir o ambiente do projeto são registradas no arquivo requirements.txt.
 
+
+---------------
+
+## 📅 Progresso do Projeto
+
+### Dia 1 — Mapeamento da API do Banco Central ✅
+
+- Exploração da API de Ranking de Reclamações do BCB
+- Identificação dos anos e períodos disponíveis
+- Estruturação dos períodos em DataFrame
+- Análise das periodicidades disponíveis
+- Definição do recorte do projeto
+
+### Dia 2 — Coleta histórica de reclamações ✅
+
+- Definição do período de análise a partir de 2017
+- Seleção de bancos e financeiras
+- Automatização da coleta trimestral via API
+- Coleta de 37 períodos disponíveis entre 2017 e 2026
+- Consolidação de 5.060 registros em um único DataFrame
+- Identificação de ausência do 2º trimestre de 2022 na listagem de períodos da API
+- Identificação de mudanças no schema dos arquivos ao longo dos anos
+- Preservação dos dados brutos para posterior tratamento e padronização
+
+### Próxima etapa — Tratamento dos dados 🔄
+
+- Padronizar nomes das colunas
+- Corrigir problemas de encoding
+- Harmonizar mudanças de schema entre os períodos
+- Selecionar variáveis relevantes para análise
+- Criar a camada de dados processados
+
