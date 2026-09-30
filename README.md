@@ -81,3 +81,52 @@ A pasta .venv não é versionada no GitHub. As dependências necessárias para r
 - Selecionar variáveis relevantes para análise
 - Criar a camada de dados processados
 
+## 📊 Progresso do Projeto
+
+### Dia 3 — Coleta e consolidação dos dados
+
+Foi realizada a coleta dos dados históricos de reclamações de instituições
+financeiras disponibilizados pelo Banco Central do Brasil.
+
+Principais etapas:
+
+- Consulta dos períodos disponíveis na API do Banco Central;
+- Seleção de dados trimestrais de Bancos e Financeiras a partir de 2017;
+- Coleta automática dos arquivos de reclamações;
+- Padronização das diferentes estruturas encontradas nos arquivos históricos;
+- Consolidação dos dados em uma única base para análise.
+
+A base consolidada contém informações como:
+
+- Ano e trimestre;
+- Instituição financeira;
+- Reclamações procedentes;
+- Total de reclamações;
+- Total de clientes.
+
+---
+
+### Dia 4 — Análise exploratória
+
+Com a base histórica consolidada, foi realizada uma análise exploratória
+das reclamações entre 2017 e 2026.
+
+Foram analisados:
+
+- Evolução do total de reclamações por ano;
+- Instituições com maior volume de reclamações em 2025;
+- Instituições com maior número de reclamações procedentes em 2025;
+- Evolução histórica das principais instituições;
+- Taxa de reclamações por 100 mil clientes.
+
+A normalização pelo número de clientes permitiu comparar instituições
+de diferentes tamanhos de forma mais adequada.
+
+### 🔎 Principais insights
+
+- O volume total de reclamações apresentou forte crescimento em 2024 e 2025;
+- Bradesco apresentou o maior número absoluto de reclamações procedentes em 2025;
+- Agibank apresentou destaque quando as reclamações foram normalizadas pelo número de clientes;
+- O crescimento observado em 2024 e 2025 será investigado nas próximas etapas do projeto;
+- Os dados de 2026 representam um período ainda incompleto e não devem ser comparados diretamente com anos completos.
+
