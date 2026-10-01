@@ -130,3 +130,28 @@ de diferentes tamanhos de forma mais adequada.
 - O crescimento observado em 2024 e 2025 será investigado nas próximas etapas do projeto;
 - Os dados de 2026 representam um período ainda incompleto e não devem ser comparados diretamente com anos completos.
 
+### Dia 5 — Investigação do aumento das reclamações ✅
+
+* Análise da evolução anual das reclamações procedentes
+* Identificação de um crescimento de 132,06% nas reclamações em 2024
+* Comparação entre o crescimento das reclamações e da base de clientes
+* Identificação das instituições que mais contribuíram para o aumento
+* Cálculo da taxa de reclamações por 100 mil clientes
+* Identificação do Agibank como destaque proporcional entre as instituições analisadas
+
+#### 🔎 Principais achados
+
+Em 2024, as reclamações procedentes cresceram 132,06%, maior aumento anual observado no período analisado.
+
+O crescimento da base de clientes, isoladamente, não foi suficiente para explicar esse movimento. Em diversas instituições, as reclamações cresceram muito acima da variação da quantidade de clientes.
+
+Em 2024, Itaú e Caixa apresentaram os maiores aumentos absolutos de reclamações entre as instituições analisadas. Em 2025, Bradesco e PicPay apresentaram os maiores aumentos.
+
+Ao normalizar os resultados pela base de clientes, o Agibank apresentou a maior taxa entre as instituições analisadas, passando de 203,24 reclamações procedentes por 100 mil clientes em 2024 para 248,35 em 2025.
+
+#### ⚠️ Limitação da análise
+
+A base consolidada utilizada nesta etapa não contém o motivo detalhado das reclamações. Por isso, os resultados não permitem determinar se o aumento está relacionado a atendimento, produtos, fraudes, cobranças, canais digitais ou outros fatores.
+
+Uma versão futura do projeto poderá incorporar essas informações para aprofundar a investigação.
+
